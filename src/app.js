@@ -15,7 +15,7 @@ window.onload = function() {
   const arrayElement2 = what[Math.floor(Math.random() * what.length)];
   const arrayElement3 = when[Math.floor(Math.random() * when.length)];
 
-  const randomSentence = '${arrayElement} ${arrayElement1} ${arrayElement2} ${arrayElement3}';
+  const randomSentence = arrayElement + " " + arrayElement1 + " " + arrayElement2 + " " + arrayElement3;
 
   const myElement = document.getElementById('myElement');
   myElement.innerHTML = randomSentence;
